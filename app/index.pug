@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Grid</title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900&amp;subset=latin-ext" rel="stylesheet"> 
+   <link href="css/libs.css" rel="stylesheet">  
+   <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+   .menu-container
+      .menu
+         .logo
+            a(href="index.html") 
+               img(src="/img/logo.png" title="logo" alt="logo.png" width="156" height="25")
+         ul.nav
+            li
+               a(href="#Home").nav-link.nav-link-active Home
+            li
+               a(href="#Destination").nav-link Destination
+            li
+               a(href="#Ittinary").nav-link Ittinary
+            li
+               a(href="#Review").nav-link Review
+            li
+               a(href="#Contact").nav-link Contact
+         .profile
+            img(src="/img/profile.png" width="44" height="44").profile-icon
+            span.profile-button
+   section.header
+      .header-container
+         .header-content
+            h1.
+               LETS GET <span class="aqua-dark">LOST</span>
+            p.
+               Malang will never dissapointed you.<br>From every step you took you will be amazed and suddenly fallin love with Malang
+            button.button.button-orange SET ITTINERY NOW
+   section.about
+      .city
+         .city-img
+            img(src="/img/city.png" title="city" alt="city.png" width="452" height="264")
+         .city-body
+            h2.
+               City of <span class="aqua-dark">Love<span> 
+            p.
+               Malang is the second largest city in East Java province, Indonesia. It has a history dating back to the ancient Mataram Kingdom. The city is famous for its cool temperature. People in East Java sometimes call it "Paris of East Java.
+   section.destination
+      .destination-container
+         .destination-header
+            h2 Dest<span class="aqua-dark">ination<span> 
+            p.
+               Being around by many mountain, Malang not only came with mountain vacation, but our beach, cultural spot, and Human Interest is worth to experienced.
+         .destination-search
+            .search
+               form
+                  button(type="submit")
+                     img(src="img/search.svg")
+                  input(name="search" placeholder="search destination")
+            .tabs
+               .tab.tab-active.
+                  ALL PLACE
+               .tab.
+                  RECOMENDED PLACE
+
+
+      script(src="/js/common.js")
+</body>
+</html>
